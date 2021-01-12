@@ -1,0 +1,31 @@
+Generate descriptive statistics, excluding NaN values
+
+       Rainfall_Le_Croci  Rainfall_Cavallina  Rainfall_S_Agata  Rainfall_Mangona  Rainfall_S_Piero  Rainfall_Vernio  Rainfall_Stia  Rainfall_Consuma  Rainfall_Incisa  Rainfall_Montevarchi  Rainfall_S_Savino  Rainfall_Laterina  Rainfall_Bibbiena  Rainfall_Camaldoli  Temperature_Firenze  Hydrometry_Nave_di_Rosano
+count        6026.000000         6026.000000       6026.000000       6026.000000       6026.000000      4283.000000    1283.000000       1283.000000      4568.000000           1647.000000         1283.00000        1283.000000        2378.000000         1283.000000          6192.000000                8169.000000
+mean            3.129871            2.674743          2.670063          3.340657          2.471225         3.416437       2.538893          3.416680         2.335026              2.056709            2.42650           2.101949           2.640959            3.826968            16.605386                   1.472407
+std             8.025121            7.655847          7.166643          8.903134          6.650012         9.425358       6.502917          8.938863         6.347652              6.117967            7.23414           6.377879           7.161416            9.591337             7.458951                   0.616259
+min             0.000000            0.000000          0.000000          0.000000          0.000000         0.000000       0.000000          0.000000         0.000000              0.000000            0.00000           0.000000           0.000000            0.000000            -2.700000                   0.000000
+25%             0.000000            0.000000          0.000000          0.000000          0.000000         0.000000       0.000000          0.000000         0.000000              0.000000            0.00000           0.000000           0.000000            0.000000            10.650000                   1.100000
+50%             0.000000            0.000000          0.000000          0.000000          0.000000         0.000000       0.000000          0.000000         0.000000              0.000000            0.00000           0.000000           0.000000            0.000000            16.350000                   1.300000
+75%             1.200000            0.600000          1.200000          1.400000          0.800000         1.200000       1.000000          2.200000         0.800000              0.600000            0.70000           0.400000           1.200000            2.400000            22.700000                   1.690000
+max            88.400000          113.600000        120.200000        110.000000         80.600000       126.000000      63.000000        114.400000       102.200000             75.000000          123.20000          95.600000          77.400000          103.600000            34.900000                   6.750000
+
+Count non-NA cells for each column
+
+Date                         8217
+Rainfall_Le_Croci            6026
+Rainfall_Cavallina           6026
+Rainfall_S_Agata             6026
+Rainfall_Mangona             6026
+Rainfall_S_Piero             6026
+Rainfall_Vernio              4283
+Rainfall_Stia                1283
+Rainfall_Consuma             1283
+Rainfall_Incisa              4568
+Rainfall_Montevarchi         1647
+Rainfall_S_Savino            1283
+Rainfall_Laterina            1283
+Rainfall_Bibbiena            2378
+Rainfall_Camaldoli           1283
+Temperature_Firenze          6192
+Hydrometry_Nave_di_Rosano    8169

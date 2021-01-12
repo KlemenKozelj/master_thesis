@@ -1,0 +1,22 @@
+Generate descriptive statistics, excluding NaN values
+
+       Rainfall_Bastia_Umbra  Depth_to_Groundwater_P24  Depth_to_Groundwater_P25  Temperature_Bastia_Umbra  Temperature_Petrignano  Volume_C10_Petrignano  Hydrometry_Fiume_Chiascio_Petrignano
+count            4199.000000               5168.000000               5184.000000               4199.000000             4199.000000            5025.000000                           4199.000000
+mean                1.556633                -26.263723                -25.692926                 15.030293               13.739081          -29043.296726                              2.372517
+std                 5.217923                  3.319858                  3.214165                  7.794871                7.701369            4751.864371                              0.589088
+min                 0.000000                -34.470000                -33.710000                 -3.700000               -4.200000          -45544.896000                              0.000000
+25%                 0.000000                -28.250000                -27.620000                  8.800000                7.700000          -31678.560000                              2.100000
+50%                 0.000000                -25.990000                -25.540000                 14.700000               13.500000          -28689.120000                              2.400000
+75%                 0.100000                -23.820000                -23.430000                 21.400000               20.000000          -26218.080000                              2.700000
+max                67.300000                -19.660000                -19.100000                 33.000000               31.100000               0.000000                              4.100000
+
+Count non-NA cells for each column
+
+Date                                    5223
+Rainfall_Bastia_Umbra                   4199
+Depth_to_Groundwater_P24                5168
+Depth_to_Groundwater_P25                5184
+Temperature_Bastia_Umbra                4199
+Temperature_Petrignano                  4199
+Volume_C10_Petrignano                   5025
+Hydrometry_Fiume_Chiascio_Petrignano    4199

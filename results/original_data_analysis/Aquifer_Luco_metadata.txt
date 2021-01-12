@@ -1,0 +1,36 @@
+Generate descriptive statistics, excluding NaN values
+
+       Rainfall_Simignano  Rainfall_Siena_Poggio_al_Vento  Rainfall_Mensano  Rainfall_Montalcinello  Rainfall_Monticiano_la_Pineta  Rainfall_Sovicille  Rainfall_Ponte_Orgia  Rainfall_Scorgiano  Rainfall_Pentolina  Rainfall_Monteroni_Arbia_Biena  Depth_to_Groundwater_Podere_Casetta  Depth_to_Groundwater_Pozzo_1  Depth_to_Groundwater_Pozzo_3  Depth_to_Groundwater_Pozzo_4  Temperature_Siena_Poggio_al_Vento  Temperature_Mensano  Temperature_Pentolina  Temperature_Monteroni_Arbia_Biena  Volume_Pozzo_1  Volume_Pozzo_3  Volume_Pozzo_4
+count          6822.00000                      951.000000       1722.000000             6525.000000                    2205.000000         6657.000000           1260.000000         3036.000000         2116.000000                     3104.000000                          3346.000000                   1012.000000                    920.000000                    969.000000                        7487.000000          7487.000000            7487.000000                        7487.000000     2008.000000     2008.000000     2008.000000
+mean              2.52146                        2.269821          2.560743                2.477579                       3.105850            2.281959              2.366825            3.222134            8.734783                        2.391108                            -7.079229                    -11.100692                     -9.892256                    -13.098520                           1.903954             3.343248              13.419761                          13.593736     -160.684377     -147.773134     -135.214663
+std               7.09014                        6.039464         10.279711                7.488022                       9.496626            7.053183              6.813364           21.307151           52.149236                        7.602140                             1.158653                      0.836808                      0.667793                      2.571084                           5.602519             6.923075               7.249467                           7.199626       51.220771       55.643788       56.818120
+min               0.00000                        0.000000          0.000000                0.000000                       0.000000            0.000000              0.000000            0.000000            0.000000                        0.000000                            -9.600000                    -12.600000                    -11.900000                    -19.000000                          -3.550000            -5.250000              -4.800000                          -3.900000     -295.375015     -261.849600     -237.336612
+25%               0.00000                        0.000000          0.000000                0.000000                       0.000000            0.000000              0.000000            0.000000            0.000000                        0.000000                            -7.900000                    -11.600000                    -10.300000                    -13.000000                           0.000000             0.000000               7.950000                           7.950000     -198.758660     -189.343442     -175.177124
+50%               0.00000                        0.000000          0.000000                0.000000                       0.000000            0.000000              0.000000            0.000000            0.000000                        0.000000                            -7.300000                    -11.200000                     -9.800000                    -12.700000                           0.000000             0.000000              13.200000                          13.700000     -163.545061     -148.874123     -145.845891
+75%               0.60000                        1.200000          0.600000                0.600000                       0.800000            0.400000              0.600000            0.800000            1.200000                        0.600000                            -6.300000                    -10.600000                     -9.400000                    -11.400000                           0.000000             0.000000              19.350000                          19.650000     -119.615001     -110.467100      -96.849815
+max              87.80000                       79.200000        313.000000              134.600000                     171.000000          194.200000             90.000000          794.200000          620.800000                      137.600000                            -4.800000                     -2.800000                     -8.200000                      0.000000                          31.800000            31.850000              31.300000                          29.450000      -55.433467        0.000000       -0.053438
+
+Count non-NA cells for each column
+
+Date                                   7487
+Rainfall_Simignano                     6822
+Rainfall_Siena_Poggio_al_Vento          951
+Rainfall_Mensano                       1722
+Rainfall_Montalcinello                 6525
+Rainfall_Monticiano_la_Pineta          2205
+Rainfall_Sovicille                     6657
+Rainfall_Ponte_Orgia                   1260
+Rainfall_Scorgiano                     3036
+Rainfall_Pentolina                     2116
+Rainfall_Monteroni_Arbia_Biena         3104
+Depth_to_Groundwater_Podere_Casetta    3346
+Depth_to_Groundwater_Pozzo_1           1012
+Depth_to_Groundwater_Pozzo_3            920
+Depth_to_Groundwater_Pozzo_4            969
+Temperature_Siena_Poggio_al_Vento      7487
+Temperature_Mensano                    7487
+Temperature_Pentolina                  7487
+Temperature_Monteroni_Arbia_Biena      7487
+Volume_Pozzo_1                         2008
+Volume_Pozzo_3                         2008
+Volume_Pozzo_4                         2008
