@@ -1,0 +1,17 @@
+Generate descriptive statistics, excluding NaN values
+
+                      Date  Rainfall_Terni  Flow_Rate_Lupa
+count                 4199     4199.000000     3817.000000
+mean   2014-10-01 00:00:00        2.466355      -97.712916
+min    2009-01-01 00:00:00        0.000000     -182.310000
+25%    2011-11-16 12:00:00        1.402000     -105.760000
+50%    2014-10-01 00:00:00        2.142000      -96.590000
+75%    2017-08-15 12:00:00        3.165000      -87.220000
+max    2020-06-30 00:00:00       76.000000        0.000000
+std                    NaN        2.041837       15.026314
+
+Count non-NA cells for each column
+
+Date              4199
+Rainfall_Terni    4199
+Flow_Rate_Lupa    3817
