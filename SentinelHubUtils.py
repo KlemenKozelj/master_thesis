@@ -1,6 +1,7 @@
 from sentinelhub import SHConfig
 from os import environ
 from datetime import timedelta
+import numpy as np
 
 sh_config = SHConfig()
 sh_config.sh_client_id=environ['SH_CLIENT_ID']
@@ -108,4 +109,16 @@ def get_eopatch(dirname, geo_points, time_interval):
         eopatch.save(dirname, overwrite_permission=OverwritePermission.OVERWRITE_FEATURES)
     else:
         print('eopatch data was loaded from local directory')
+    return eopatch
+
+def delete_frame_eopatch(eopatch, index):
+    eopatch.data['BANDS'] = np.delete(eopatch.data['BANDS'], index, axis=0)
+    eopatch.data['NDVI'] = np.delete(eopatch.data['NDVI'], index, axis=0)
+    eopatch.data['NDWI'] = np.delete(eopatch.data['NDWI'], index, axis=0)
+    eopatch.mask['CLM'] = np.delete(eopatch.mask['CLM'], index, axis=0)
+    eopatch.mask['CLP'] = np.delete(eopatch.mask['CLP'], index, axis=0)
+    eopatch.mask['IS_DATA'] = np.delete(eopatch.mask['IS_DATA'], index, axis=0)
+    eopatch.mask['VALID_DATA'] = np.delete(eopatch.mask['VALID_DATA'], index, axis=0)
+    eopatch.scalar['COVERAGE'] = np.delete(eopatch.scalar['COVERAGE'], index, axis=0)
+    eopatch.timestamp.pop(index)
     return eopatch
