@@ -32,7 +32,7 @@ def visualise_water_mask(band_names, eopatch, index, water_mask, water_edges, sh
     ax[0][2].imshow(water_mask, aspect='auto')
 
     rgb2 = np.copy(rgb)
-    rgb2[water_mask] = 0
+    rgb2[water_mask] = (1, 0, 0)
     ax[1][0].set_title('RGB with Water Mask')
     ax[1][0].imshow(rgb2, aspect='auto')
 
@@ -41,20 +41,3 @@ def visualise_water_mask(band_names, eopatch, index, water_mask, water_edges, sh
 
     ax[1][2].set_title('Shores')
     ax[1][2].imshow(shores, aspect='auto')
-
-    fig, ax = plt.subplots(1, 2, figsize=(16, 8))
-
-    rgb3 = np.copy(rgb)
-
-    rgb3[shores] = (1, 0, 0)
-    ax[0].imshow(rgb3, aspect='auto')
-    rgb3[shores_edges] = (1, 0, 0)
-    
-    ax[0].imshow(rgb3, aspect='auto', alpha=0.1)
-    ax[0].set_title('AoI over RGB')
-
-    NDWI_AoI = np.copy(eopatch.data['NDWI'][index].squeeze())
-    NDWI_AoI[~shores_edges] = float('nan')
-
-    ax[1].set_title('AoI over NDWI')
-    ax[1].imshow(NDWI_AoI, aspect='auto', vmin=-1, vmax=1)
