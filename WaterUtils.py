@@ -18,4 +18,4 @@ def myNDWI_index(eopatch, mask, NDWI_threshold=0.2):
     eo['Date'] = pd.to_datetime(eo['Date']).dt.date
     eo = eo.set_index('Date')
 
-    return eo
+    return eo, NDWI
